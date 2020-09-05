@@ -171,7 +171,7 @@ function App() {
         <h2>ネコ飯</h2>
         <span>
           <span>ネコの砲撃術</span>
-          <input type="checkbox" checked={artOfBombardmentCatFood === 1.15} onChange={(event) => setArtOfBombardmentCatFood(event.target.checked ? 1.15 : 0)} />
+          <input type="checkbox" checked={artOfBombardmentCatFood === 1.15} onChange={(event) => setArtOfBombardmentCatFood(event.target.checked ? 1.15 : 1)} />
         </span>
         <span>
           <span>攻撃力UP</span>
