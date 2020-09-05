@@ -1,0 +1,21 @@
+// DevContainerの設定項目のリファレンス https://code.visualstudio.com/docs/remote/containers#_devcontainerjson-reference
+{
+  "name": "MHWTOOLS",
+  "dockerComposeFile": "./docker-compose.yml",
+  "service": "workspace",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  // DevContainerで使用するVSCodeの拡張機能
+  "extensions": [
+    "editorconfig.editorconfig",
+    "mhutchie.git-graph",
+    "eamodio.gitlens",
+    "ms-azuretools.vscode-docker",
+    "ms-ceintl.vscode-language-pack-ja",
+    "hediet.vscode-drawio",
+    "oderwat.indent-rainbow"
+  ],
+  // ホストOSのディレクトリのマウント設定
+  "workspaceFolder": "/workspace"
+}
