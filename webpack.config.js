@@ -2,6 +2,9 @@ const path = require("path");
 const HTMLPlugin = require("html-webpack-plugin");
 
 module.exports = {
+  output: {
+    path: __dirname + '/docs',
+  },
   module: {
     rules: [
       {
