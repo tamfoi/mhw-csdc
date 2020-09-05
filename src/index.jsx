@@ -42,7 +42,7 @@ function App() {
   }, [bulletDamage, baseWeaponMultiplier, artillerySkill, attackSkill, fullChargeSkill, recriminationSkill, challengerSkill, firepowerSkill, amuletItem, clawItem, remedyForDemonsItem, superhumanStrengthItem, dustItem, bulletItem, artOfBombardmentCatFood, attackPowerUpCatFood])
 
   return (
-    <div className={styles.container}>
+    <div>
       <h1>【MHW】徹甲ライトダメージ計算ツール</h1>
       <div>
         <span>武器の表示攻撃力</span>
