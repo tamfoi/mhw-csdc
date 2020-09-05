@@ -1,2 +1,2 @@
-# mhw-csdc(crag S damage calculator)
+# mhw-sadc(sticky ammo damage calculator)
 徹甲ライトダメージ計算ツール
