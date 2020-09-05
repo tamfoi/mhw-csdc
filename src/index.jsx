@@ -38,7 +38,7 @@ function App() {
 
   //ダメージ
   const damage = useMemo(() => {
-    return ((baseWeaponMultiplier * artillerySkill * firepowerSkill * artOfBombardmentCatFood + attackSkill + fullChargeSkill + recriminationSkill + challengerSkill + amuletItem + clawItem + remedyForDemonsItem + superhumanStrengthItem + dustItem + bulletItem + artOfBombardmentCatFood) / 100) * bulletDamage
+    return ((baseWeaponMultiplier * artillerySkill * firepowerSkill * artOfBombardmentCatFood + attackSkill + fullChargeSkill + recriminationSkill + challengerSkill + amuletItem + clawItem + remedyForDemonsItem + superhumanStrengthItem + dustItem + bulletItem + attackPowerUpCatFood) / 100) * bulletDamage
   }, [bulletDamage, baseWeaponMultiplier, artillerySkill, attackSkill, fullChargeSkill, recriminationSkill, challengerSkill, firepowerSkill, amuletItem, clawItem, remedyForDemonsItem, superhumanStrengthItem, dustItem, bulletItem, artOfBombardmentCatFood, attackPowerUpCatFood])
 
   return (
